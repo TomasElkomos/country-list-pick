@@ -50,7 +50,7 @@ class _MyAppState extends State<MyApp> {
               isDownIcon: true,
               showEnglishName: false,
             ),
-            initialSelection: '+62',
+            initialSelection: '+20',
             // or
             // initialSelection: 'US'
             onChanged: (CountryCode code) {
