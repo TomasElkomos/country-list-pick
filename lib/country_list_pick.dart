@@ -106,6 +106,7 @@ class _CountryListPickState extends State<CountryListPick> {
           : Flex(
               direction: Axis.horizontal,
               mainAxisSize: MainAxisSize.min,
+              textDirection: TextDirection.ltr,
               children: <Widget>[
                 if (widget.theme?.isShowFlag ?? true == true)
                   Flexible(
